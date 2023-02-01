@@ -55,7 +55,7 @@ Role-Based Menu의 경우, 사용자 Role별로 모두 다르게 보일텐데 SA
 이 필드는 어떤 프로그램의 필드인지, 몇 번 스크린에 존재하고, 어떤 데이터 타입을 참고하는지 확인 가능
 
 ## F4 Help (Search Help)
-###- input field에 들어올 수 있는 값을 의미
+### - input field에 들어올 수 있는 값을 의미
 특정 UI 컴포넌트에 포커싱을 주고 F4를 누르면, 해당 필드에 들어올 수 있는 값이 리스트 형태로 나타남.
 이를 possible entity라고 부름.
 
