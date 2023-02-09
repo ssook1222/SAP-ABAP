@@ -1,0 +1,16 @@
+DATA : PA_DATE_R LIKE SY-DATUM,
+       PA_DATE LIKE SY-DATUM.
+
+DATA : PA_STRING_R TYPE C LENGTH 8,
+       PA_STRING TYPE C LENGTH 8.
+
+PARAMETERS : PA_INPUT TYPE P.
+             PA_DATE_R = SY-DATUM.
+             PA_STRING_R = PA_DATE_R.
+
+PA_DATE = SY-DATUM.
+PA_DATE = PA_DATE_R + PA_INPUT.
+PA_STRING = PA_DATE.
+
+WRITE :'today's date:', PA_STRING_R,
+       / 'calculated date:', PA_STRING.
